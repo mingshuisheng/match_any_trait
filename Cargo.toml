@@ -1,12 +1,12 @@
 [package]
 name = "match_any_trait"
-version = "0.0.0"
+version = "0.1.1"
 license = "Apache-2.0"
 authors = ["mingshuisheng <mingshuisheng@gmail.com>"]
 repository = "https://github.com/mingshuisheng/match_any_trait"
 keywords = ["match", "any"]
 edition = "2021"
-description = "developing"
+description = "match expressions for any trait"
 readme = "README.md"
 
 [lib]
@@ -15,3 +15,6 @@ proc-macro = true
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+quote = "1.0.33"
+syn = { version = "2.0.33", features = ["full"] }
+proc-macro2 = "1.0.67"
