@@ -1,0 +1,17 @@
+[package]
+name = "match_any_trait"
+version = "0.0.0"
+license = "Apache-2.0"
+authors = ["mingshuisheng <mingshuisheng@gmail.com>"]
+repository = "https://github.com/mingshuisheng/match_any_trait"
+keywords = ["match", "any"]
+edition = "2021"
+description = "developing"
+readme = "README.md"
+
+[lib]
+proc-macro = true
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
